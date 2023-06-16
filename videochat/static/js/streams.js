@@ -1,7 +1,7 @@
-const APP_ID = 'ID'
-const CHANNEL = 'main'
-const TOKEN = 'token'
 
+const APP_ID = 'id'
+const TOKEN = sessionStorage.getItem('token')
+const CHANNEL = sessionStorage.getItem('room')
 let UID = sessionStorage.getItem('UID')
 
 let NAME = sessionStorage.getItem('name')
